@@ -1,0 +1,30 @@
+name: Generate Client Themes
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  process-tokens:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run JSON processing script
+        run: node scripts/generate-client-themes.js
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add clients/*.json
+          git commit -m "Updated client JSON files from tokens.json" || echo "No changes to commit"
+          git push
