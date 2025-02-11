@@ -1,5 +1,5 @@
-import fs from 'fs'
-import path from 'path'
+const fs = require('fs')
+const path = require('path')
 
 const tokensPath = path.join(__dirname, '../../tokens.json')
 const clientsFolder = path.join(__dirname, '../../clients')
@@ -26,16 +26,16 @@ try {
     if (tokens[clientKey]) {
       const clientData = tokens[clientKey]
 
-      // Move shadows to the same level as colors...KA
-      if (clientData.shadows) {
-        clientData.colors = { ...clientData }
-        delete clientData.colors.shadows
-        clientData.shadows = tokens[clientKey].shadows
+      const cleanedData = {
+        colors: clientData,
+        shadows: clientData.shadows,
       }
+
+      delete cleanedData.colors.shadows
 
       // Save processed data to the client file...KA
       const outputFilePath = path.join(clientsFolder, outputFileName)
-      fs.writeFileSync(outputFilePath, JSON.stringify(clientData, null, 2), 'utf-8')
+      fs.writeFileSync(outputFilePath, JSON.stringify(cleanedData, null, 2), 'utf-8')
       console.log(`✅ Processed and saved: ${outputFileName}`)
     } else {
       console.warn(`⚠️ Warning: No matching data found for "${clientKey}" in tokens.json`)
