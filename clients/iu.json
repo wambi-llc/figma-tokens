@@ -274,7 +274,7 @@
         },
         "disabled": {
           "background": {
-            "value": "{primary.light}",
+            "value": "{primary.dark}",
             "type": "color"
           },
           "text": {
@@ -358,11 +358,11 @@
         },
         "disabled": {
           "stroke": {
-            "value": "{primary.light}",
+            "value": "{primary.dark}",
             "type": "color"
           },
           "text": {
-            "value": "{primary.light}",
+            "value": "{primary.dark}",
             "type": "color"
           }
         },
