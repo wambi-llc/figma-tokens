@@ -13,6 +13,10 @@
         "value": "#14628E",
         "type": "color"
       },
+      "lightest": {
+        "value": "#d7eaf4",
+        "type": "color"
+      },
       "gradient": {
         "start": {
           "value": "#002133",
@@ -34,7 +38,7 @@
         "type": "color"
       },
       "lightest": {
-        "value": "#D9EAF4",
+        "value": "#Add4eb",
         "type": "color"
       },
       "gradient": {
