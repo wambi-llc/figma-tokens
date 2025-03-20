@@ -11,6 +11,7 @@ const clientMappings = {
   'Stanford Recolor': 'stanford.json',
   'VA Recolor': 'va.json',
   'GSAM Recolor': 'gsam.json',
+  'NKCH Recolor': 'nkch.json',
 }
 
 // Ensure clients folder exists, if not create one...KA
