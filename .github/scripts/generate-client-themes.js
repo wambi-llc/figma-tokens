@@ -15,6 +15,7 @@ const clientMappings = {
   'NCH Recolor': 'nch.json',
   'Cedars Sinai Recolor': 'cedars.json',
   'Novant Recolor': 'novant.json',
+  'UTMB Recolor': 'utmb.json',
 }
 
 // Ensure clients folder exists, if not create one...KA
