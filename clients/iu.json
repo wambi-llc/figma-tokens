@@ -385,7 +385,7 @@
           "type": "color"
         },
         "light": {
-          "value": "#FFF3F0",
+          "value": "#FCF9F8",
           "type": "color"
         }
       },
@@ -395,7 +395,7 @@
           "type": "color"
         },
         "light": {
-          "value": "#FBF8FB",
+          "value": "#FCF7FC",
           "type": "color"
         }
       },
@@ -405,7 +405,7 @@
           "type": "color"
         },
         "light": {
-          "value": "#F9F9F0",
+          "value": "#FAFAF4",
           "type": "color"
         }
       },
@@ -415,7 +415,7 @@
           "type": "color"
         },
         "light": {
-          "value": "#EDFAFD",
+          "value": "#F4F9FA",
           "type": "color"
         }
       },
@@ -425,7 +425,7 @@
           "type": "color"
         },
         "light": {
-          "value": "#FFF7F8",
+          "value": "#FCF8F8",
           "type": "color"
         }
       }
