@@ -395,51 +395,51 @@
     "values": {
       "one": {
         "base": {
-          "value": "#DA0B5E",
+          "value": "#3B57B0",
           "type": "color"
         },
         "light": {
-          "value": "#FEF0F6",
+          "value": "#F8F9FC",
           "type": "color"
         }
       },
       "two": {
         "base": {
-          "value": "#1A5EE5",
+          "value": "#266321",
           "type": "color"
         },
         "light": {
-          "value": "#F1F5FE",
+          "value": "#F6FBF5",
           "type": "color"
         }
       },
       "three": {
         "base": {
-          "value": "#DD570A",
+          "value": "#357073",
           "type": "color"
         },
         "light": {
-          "value": "#FFF3EB",
+          "value": "#F5FBFB",
           "type": "color"
         }
       },
       "four": {
         "base": {
-          "value": "#427D1C",
+          "value": "#C42A23",
           "type": "color"
         },
         "light": {
-          "value": "#F0FBE9",
+          "value": "#FCF8F7",
           "type": "color"
         }
       },
       "five": {
         "base": {
-          "value": "#B82E8E",
+          "value": "#C62954",
           "type": "color"
         },
         "light": {
-          "value": "#FEF1FA",
+          "value": "#FCF8F9",
           "type": "color"
         }
       }
