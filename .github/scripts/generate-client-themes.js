@@ -7,6 +7,7 @@ const clientsFolder = path.join(__dirname, '../../clients')
 // Define the mapping of parent names to output filenames...KA
 const clientMappings = {
   'Wambi Recolor': '1.json',
+  'IU Recolor': '3.json', // Generating duplicate for dev site...KA
   'IU Recolor': '31.json',
   'Stanford Recolor': '32.json',
   'VA Recolor': '35.json',
