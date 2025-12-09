@@ -6,16 +6,16 @@ const clientsFolder = path.join(__dirname, '../../clients')
 
 // Define the mapping of parent names to output filenames...KA
 const clientMappings = {
-  'Wambi Recolor': '1-wambi.json',
-  'IU Recolor': '31-iu.json',
-  'Stanford Recolor': '32-stanford.json',
-  'VA Recolor': '35-va.json',
-  'GSAM Recolor': '40-gsam.json',
-  'NKCH Recolor': '39-nkch.json',
-  'NCH Recolor': '47-nch.json',
-  'Cedars Sinai Recolor': '41-cedars.json',
-  'Novant Recolor': '45-novant.json',
-  'UTMB Recolor': '46-utmb.json',
+  'Wambi Recolor': '1.json',
+  'IU Recolor': '31.json',
+  'Stanford Recolor': '32.json',
+  'VA Recolor': '35.json',
+  'GSAM Recolor': '40.json',
+  'NKCH Recolor': '39.json',
+  'NCH Recolor': '47.json',
+  'Cedars Sinai Recolor': '41.json',
+  'Novant Recolor': '45.json',
+  'UTMB Recolor': '46.json',
 }
 
 // Ensure clients folder exists, if not create one...KA
