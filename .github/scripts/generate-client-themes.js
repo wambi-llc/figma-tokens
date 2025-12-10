@@ -40,7 +40,9 @@ try {
       }
 
       // Save processed data to the client file...KA
-      (Array.isArray(outputFileNames) ? outputFileNames : [outputFileNames]).forEach(outputFileName => {
+      const filesToProcess = Array.isArray(outputFileNames) ? outputFileNames : [outputFileNames]
+
+      filesToProcess.forEach(outputFileName => {
         const outputFilePath = path.join(clientsFolder, outputFileName)
         fs.writeFileSync(outputFilePath, JSON.stringify(cleanedData, null, 2), 'utf-8')
         console.log(`✅ Processed and saved: ${outputFileName}`)
