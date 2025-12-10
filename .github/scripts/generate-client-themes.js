@@ -30,12 +30,14 @@ try {
     if (tokens[clientKey]) {
       const clientData = tokens[clientKey]
 
-      const cleanedData = {
-        colors: clientData,
-        shadows: clientData.shadows,
-      }
+      // Create a copy of clientData for colors, excluding shadows...KA
+      const colors = { ...clientData }
+      if (colors.shadows) delete colors.shadows
 
-      if (cleanedData.colors.shadows) delete cleanedData.colors.shadows
+      const cleanedData = {
+        colors,
+        shadows: clientData.shadows || {},
+      }
 
       // Save processed data to the client file...KA
       (Array.isArray(outputFileNames) ? outputFileNames : [outputFileNames]).forEach(outputFileName => {
