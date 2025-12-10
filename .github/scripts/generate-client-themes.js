@@ -35,7 +35,7 @@ try {
         shadows: clientData.shadows,
       }
 
-      delete cleanedData.colors.shadows
+      if (cleanedData.colors.shadows) delete cleanedData.colors.shadows
 
       // Save processed data to the client file...KA
       (Array.isArray(outputFileNames) ? outputFileNames : [outputFileNames]).forEach(outputFileName => {
