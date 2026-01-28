@@ -15,11 +15,11 @@
       },
       "gradient": {
         "start": {
-          "value": "#5C1881",
+          "value": "#8030AB",
           "type": "color"
         },
         "end": {
-          "value": "#C52A55",
+          "value": "#F7EDFC",
           "type": "color"
         }
       }
