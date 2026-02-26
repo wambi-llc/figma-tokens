@@ -429,6 +429,16 @@
           "type": "color"
         }
       }
+    },
+    "focus": {
+      "base": {
+        "value": "#2884DE",
+        "type": "color"
+      },
+      "light": {
+        "value": "#2884DE33",
+        "type": "color"
+      }
     }
   },
   "shadows": {
