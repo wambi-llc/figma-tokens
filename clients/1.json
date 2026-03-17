@@ -2,48 +2,48 @@
   "colors": {
     "primary": {
       "base": {
-        "value": "#00418f",
+        "value": "#4C34EB",
         "type": "color"
       },
       "light": {
-        "value": "#91d0fa",
+        "value": "#B1A6F7",
         "type": "color"
       },
       "lightest": {
-        "value": "#daeffd",
+        "value": "#F2F0FF",
         "type": "color"
       },
       "gradient": {
         "start": {
-          "value": "#142047",
+          "value": "#664DFF",
           "type": "color"
         },
         "end": {
-          "value": "#33a0ff",
+          "value": "#B1A5FF",
           "type": "color"
         }
       }
     },
     "secondary": {
       "base": {
-        "value": "#a32e00",
+        "value": "#3251D1",
         "type": "color"
       },
       "light": {
-        "value": "#ffbd64",
+        "value": "#6595FF",
         "type": "color"
       },
       "lightest": {
-        "value": "#f5d7a5",
+        "value": "#CBD6FE",
         "type": "color"
       },
       "gradient": {
         "start": {
-          "value": "#a32e00",
+          "value": "#0033FF",
           "type": "color"
         },
         "end": {
-          "value": "#fa7e25",
+          "value": "#6595FF",
           "type": "color"
         }
       }
@@ -395,51 +395,51 @@
     "values": {
       "one": {
         "base": {
-          "value": "#246FCC",
+          "value": "#ce1760",
           "type": "color"
         },
         "light": {
-          "value": "#F0F7FF",
+          "value": "#FCF8FA",
           "type": "color"
         }
       },
       "two": {
         "base": {
-          "value": "#BE5002",
+          "value": "#1A5EE5",
           "type": "color"
         },
         "light": {
-          "value": "#FFF8F4",
+          "value": "#F8F9FC",
           "type": "color"
         }
       },
       "three": {
         "base": {
-          "value": "#287915",
+          "value": "#C54A02",
           "type": "color"
         },
         "light": {
-          "value": "#F2F9F0",
+          "value": "#FAF7F4",
           "type": "color"
         }
       },
       "four": {
         "base": {
-          "value": "#007994",
+          "value": "#427D1C",
           "type": "color"
         },
         "light": {
-          "value": "#EDFAFD",
+          "value": "#F7FAF4",
           "type": "color"
         }
       },
       "five": {
         "base": {
-          "value": "#56711E",
+          "value": "#B82E8E",
           "type": "color"
         },
         "light": {
-          "value": "#F8FAF4",
+          "value": "#FCF8FB",
           "type": "color"
         }
       }
