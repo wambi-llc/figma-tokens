@@ -6,7 +6,7 @@ const clientsFolder = path.join(__dirname, '../../clients')
 
 // Define the mapping of parent names to output filenames...KA
 const clientMappings = {
-	'Wambi Recolor': [2, 3, 4, 5, 6, 7, 12, 14, 17, 18, 19, 20, 23, 24, 25, 26, 30, 48, 50],
+	'Wambi Recolor': [1, 2, 3, 4, 5, 6, 7, 12, 14, 17, 18, 19, 20, 23, 24, 25, 26, 30, 48, 50],
 	'IU Recolor': [3, 31],
 	'Stanford Recolor': 32,
 	'VA Recolor': 35,
@@ -15,7 +15,7 @@ const clientMappings = {
 	'NCH Recolor': 47,
 	'Cedars Sinai Recolor': 41,
 	'Novant Recolor': 45,
-	'UTMB Recolor': [1, 46, 49],
+	'UTMB Recolor': [46, 49],
 	'Northwell Recolor': [42, 44],
 	'TGH Recolor': 51,
 }
