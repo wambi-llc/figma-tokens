@@ -15,11 +15,11 @@
       },
       "gradient": {
         "start": {
-          "value": "#930045",
+          "value": "{button.primary.regular.background}",
           "type": "color"
         },
         "end": {
-          "value": "#FB4238",
+          "value": "{button.primary.regular.background}",
           "type": "color"
         }
       }
