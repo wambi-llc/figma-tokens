@@ -22,6 +22,7 @@ const clientMappings = {
   "Northwell Recolor": [42, 44],
   "TGH Recolor": 51,
   "T.J. Regional Health": 52,
+  "BCH Recolor": 54,
 };
 
 // Ensure clients folder exists, if not create one...KA
